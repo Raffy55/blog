@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+}
+
+#navbar {
+  list-style-type: none;
+}
+
+#navlist{
+  float: left;
+}
+
+#navlist a{
+  text-decoration: none;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+#navlist a:hover{
+  background-color: white;
+  color: black;
+}
+
+#details{
+  background-color: darkgray;
+  max-height: 300px;
+  max-width: 500px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#basicinfo{
+  list-style-type: none;
+}
+
+#basicinfo li{
+  text-align: center;
+}

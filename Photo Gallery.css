@@ -1,0 +1,47 @@
+body {
+  background-color: gray;
+}
+
+#navbar {
+  list-style-type: none;
+}
+
+#navlist{
+  float: left;
+}
+
+#navlist a{
+  text-decoration: none;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+#navlist a:hover{
+  background-color: white;
+  color: black;
+}
+
+#CobIana{
+  background-color: darkgray;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 800px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#Pets{
+  background-color: darkgray;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 900px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+
+img:hover { 
+transform: scale(2); 
+}
